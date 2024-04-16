@@ -1,0 +1,10 @@
+num_rounds: 8
+num_clients: 12
+num_clients_per_round_fit: 3
+num_clients_per_round_eval: 4
+num_classes: 10
+batch_size: 32
+config_fit:
+  lr: 0.01
+  momentum: 0.995
+  local_epochs: 1
