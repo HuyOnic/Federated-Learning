@@ -1,5 +1,6 @@
-flwr[simulation]>=1.0, <2.0
-hydra-core==1.3.2
-torch
-torchvision
-torchaudio
+#python version 3.10
+flwr==1.14
+flwr[simulation]>=1.13.1,
+flwr-datasets[vision]>=0.3.0,
+torch==2.2.1,
+torchvision==0.17.1,
